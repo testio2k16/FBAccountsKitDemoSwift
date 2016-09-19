@@ -60,8 +60,7 @@ class ViewController: UIViewController {
             let myNC = UINavigationController(rootViewController: myVC) // Creating a navigation controller with VC1 at the root of the navigation stack.
 
                 self.presentViewController(myNC, animated: false, completion: nil)
-            //dispatch_async(dispatch_get_main_queue(), {
-                // self.performSegueWithIdentifier("showhome", sender: self)
+            
             })
         }
     }
