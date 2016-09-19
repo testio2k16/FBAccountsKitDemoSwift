@@ -57,9 +57,9 @@ class ViewController: UIViewController {
             dispatch_async(dispatch_get_main_queue(), {
             let mySB = UIStoryboard(name: "Main", bundle: nil)
             let myVC = mySB.instantiateViewControllerWithIdentifier("HomeScreenViewController") as! HomeScreenViewController
-            let myNC = UINavigationController(rootViewController: myVC) // Creating a navigation controller with VC1 at the root of the navigation stack.
+            let myNC = UINavigationController(rootViewController: myVC) 
 
-                self.presentViewController(myNC, animated: false, completion: nil)
+            self.presentViewController(myNC, animated: false, completion: nil)
             
             })
         }
